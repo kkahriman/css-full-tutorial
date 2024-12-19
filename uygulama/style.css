@@ -38,8 +38,8 @@ header i {
         font-size: 30px;
         color: red;
         align-items: center;
-    }
-
+    } 
+    
     .header-center{
         display: flex;
         align-items: center;
