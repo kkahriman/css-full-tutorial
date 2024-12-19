@@ -1,0 +1,98 @@
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0F0F0F;
+}
+
+header{
+    border-bottom: 1px solid #717171;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header i {
+    font-size: 20px;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    }
+
+    .header-left h3{
+        font-size: 25px;
+        color: white;
+        font-family:monospace
+        }
+
+    .header-left .bi-youtube{
+        display: flex;
+        margin-left: 20px;
+        font-size: 30px;
+        color: red;
+        align-items: center;
+    }
+
+    .header-center{
+        display: flex;
+        align-items: center;
+    }
+
+    .header-search{
+        border: 1px solid #717171;
+        padding: 4px;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        margin-right: 10px;
+    }
+
+    .header-search input{
+       background-color: #0F0F0F;
+       border: none;
+       outline: none;
+       margin: 7px;
+    }
+
+    .header-search .bi-search{
+        font-size: 15px;
+        margin-right: 4px;
+        cursor: pointer;
+    }
+
+    .header-center .bi-mic{
+        background-color: gray;
+        /* padding: 10px; */
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    .header-right{
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+    }
+
+    .header-right .avatar img{
+        width: 100%;
+        border-radius: 100%;
+    }
+
+    .header-right .avatar{
+        width: 30px;
+        height: 30px;    
+    }
+
+    
