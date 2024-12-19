@@ -1,35 +1,40 @@
 *{
-    color: white;
     margin: 0;
     padding: 0;
 }
 
 body{
     background-color: #0F0F0F;
+    display: flex;
+    flex-direction: column;
 }
 
+
+/*! Header Start */
 header{
     border-bottom: 1px solid #717171;
     height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 40px
 }
 
 header i {
     font-size: 20px;
+    color: white;
 }
 
 .header-left{
     display: flex;
     align-items: center;
+    cursor: pointer;
     }
 
     .header-left h3{
         font-size: 25px;
         color: white;
-        font-family:monospace
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
         }
 
     .header-left .bi-youtube{
@@ -39,7 +44,7 @@ header i {
         color: red;
         align-items: center;
     } 
-    
+
     .header-center{
         display: flex;
         align-items: center;
@@ -83,6 +88,7 @@ header i {
         display: flex;
         align-items: center;
         column-gap: 10px;
+        cursor: pointer;
     }
 
     .header-right .avatar img{
@@ -92,7 +98,56 @@ header i {
 
     .header-right .avatar{
         width: 30px;
-        height: 30px;    
+        height: 30px;
     }
+
+    /*! Header End */
+
+    /*! Sidebar Start */
+
+    .sidebar{
+        height: 100vh;
+        border-right: 1px solid #717171;
+        width: 100px;
+    }
+
+    .sidebar-item{
+        margin-top: 15px;
+    }
+
+    .sidebar-item a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        transition: .5s ease color;
+        }
+
+        .sidebar-item a:hover{
+            color: red;
+        }
+
+        /* .sidebar-item a span:hover{
+            color: red;
+        }
+
+        .sidebar-item a i:hover{
+            color: red;
+        }
+            */
+        .sidebar i{
+            font-size: 20px;
+        }
+
+        .sidebar-item span{
+            font-size: 12px;
+            margin-top: 5px;
+        }
+
+        .sidebar-item span{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    /*! Sidebar End */
 
     
